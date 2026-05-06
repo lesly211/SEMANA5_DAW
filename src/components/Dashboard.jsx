@@ -1,9 +1,5 @@
 /**
  *
- * CONCEPTO CLAVE: Props + Composición
- * Recibe un array de métricas y renderiza un <MetricCard> por cada una.
- * Demuestra el flujo unidireccional de datos: App → Dashboard → MetricCard
- *
  * @param {Object} props
  * @param {Array}  props.metrics
  * @param {string} props.metrics[].label 

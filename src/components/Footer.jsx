@@ -1,10 +1,7 @@
 /**
- * Footer.jsx — Pie de página
- *
  * @param {Object} props
- * @param {Object} props.storeInfo - Información de la tienda
+ * @param {Object} props.storeInfo
  */
-
 function Footer({ storeInfo }) {
   const footerStyle = {
     background: 'var(--color-primary)',
