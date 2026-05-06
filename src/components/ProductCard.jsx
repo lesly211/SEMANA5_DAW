@@ -1,9 +1,4 @@
 /**
- * ProductCard.jsx — Tarjeta de producto individual
- *
- * CONCEPTO CLAVE: Composición de props con objeto complejo
- * Recibe un objeto {product} en lugar de props sueltas,
- * lo cual es útil cuando los datos tienen muchos campos relacionados.
  *
  * @param {Object} props
  * @param {Object} props.product - Objeto con datos del producto
