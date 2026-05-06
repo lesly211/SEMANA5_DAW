@@ -1,8 +1,7 @@
 /**
- * ProductGrid.jsx — Grilla de productos
  *
  * @param {Object} props
- * @param {Array}  props.products - Lista de productos del catálogo
+ * @param {Array}  props.products
  */
 
 import ProductCard from './ProductCard.jsx'
