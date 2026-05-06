@@ -1,15 +1,14 @@
 /**
- * Dashboard.jsx — Panel de métricas de la tienda
  *
  * CONCEPTO CLAVE: Props + Composición
  * Recibe un array de métricas y renderiza un <MetricCard> por cada una.
  * Demuestra el flujo unidireccional de datos: App → Dashboard → MetricCard
  *
  * @param {Object} props
- * @param {Array}  props.metrics - Array de objetos con métricas de la tienda
- * @param {string} props.metrics[].label - Etiqueta descriptiva
- * @param {string} props.metrics[].value - Valor numérico/texto
- * @param {string} props.metrics[].icon  - Emoji/icono
+ * @param {Array}  props.metrics
+ * @param {string} props.metrics[].label 
+ * @param {string} props.metrics[].value
+ * @param {string} props.metrics[].icon
  */
 
 import MetricCard from './MetricCard.jsx'
