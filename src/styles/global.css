@@ -1,0 +1,45 @@
+/* ===== VARIABLES GLOBALES ===== */
+:root {
+  --color-primary: #1a1a2e;
+  --color-secondary: #e94560;
+  --color-accent: #f5a623;
+  --color-bg: #f8f5f0;
+  --color-card: #ffffff;
+  --color-text: #1a1a2e;
+  --color-text-muted: #6b7280;
+  --color-border: #e5e7eb;
+  --font-heading: 'Georgia', serif;
+  --font-body: 'Trebuchet MS', sans-serif;
+  --radius: 12px;
+  --shadow: 0 2px 16px rgba(26,26,46,0.08);
+}
+
+/* ===== RESET BÁSICO ===== */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}
